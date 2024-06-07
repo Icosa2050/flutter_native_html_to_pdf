@@ -1,8 +1,10 @@
 name: flutter_native_html_to_pdf
-description: This parckage is using to convert html string to pdf file
+description: This packkage is using to convert html string to pdf file
 version: 1.0.1
-homepage: https://github.com/Pisey-Nguon
-repository: https://github.com/Pisey-Nguon/flutter_native_html_to_pdf
+#homepage: https://github.com/Pisey-Nguon
+homepage: https://github.com/icosa2050
+repository: https://github.com/icosa2050/flutter_native_html_to_pdf
+#repository: https://github.com/Pisey-Nguon/flutter_native_html_to_pdf
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
@@ -11,13 +13,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
-  htmltopdfwidgets: ^0.0.9+1
+  plugin_platform_interface: ^2.1.8
+  htmltopdfwidgets: ^1.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^4.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

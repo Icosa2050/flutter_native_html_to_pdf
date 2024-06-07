@@ -8,7 +8,7 @@ class FlutterNativeSpecific {
     required String targetDirectory,
     required String targetName,
   }) async {
-    var filePath = targetDirectory + "/" + targetName + "." + "pdf";
+    var filePath = "$targetDirectory/$targetName.pdf";
     var file = File(filePath);
     final newpdf = Document();
     List<Widget> widgets = await HTMLToPdf().convert(html);
